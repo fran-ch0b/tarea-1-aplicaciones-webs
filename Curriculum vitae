@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida - Fran</title>
+
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f7f6;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .header {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .perfil {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border-radius: 8px;
+    }
+
+    .perfil img {
+        width: 120px;
+        border-radius: 50%;
+    }
+
+    .seccion {
+        background: white;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: #2c3e50;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        border: 1px solid #ccc;
+    }
+
+    th {
+        background: #2c3e50;
+        color: white;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+    <div class="header">
+        <h1>Carlos Francisco Mero Rodríguez</h1>
+        <p>Estudiante de Ingeniería de Software</p>
+    </div>
+
+    <div class="perfil">
+        <img src="foto.jpeg" alt="Foto personal">
+        <div>
+        <p><strong>Edad:</strong> 21 años</p>
+        <p><strong>Correo:</strong> carlosmero191@gmail.com</p>
+        <p><strong>Teléfono:</strong> 0995940214</p>
+        </div>
+    </div>
+
+
+    <div class="seccion">
+        <h2>Estudios Realizados</h2>
+        <ul>
+        <li>Bachillerato en Ciencias</li>
+        <li>Ingeniería de Software (en curso)</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>Experiencia Laboral</h2>
+        <ul>
+        <li>Desarrollo de páginas web básicas</li>
+        <li>Proyectos académicos en programación</li>
+        <li>Atencion al cliente</li>
+        <li>Gatronomia</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>Capacitaciones</h2>
+        <ul>
+        <li>Curso de HTML y CSS</li>
+        <li>Introducción a Python</li>
+        </ul>
+    </div>
+
+    <div class="seccion">
+        <h2>Referencias Personales</h2>
+
+        <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Cargo/Profesión</th>
+            <th>Teléfono</th>
+            <th>Correo</th>
+        </tr>
+
+        <tr>
+            <td>Juan Pérez</td>
+            <td>Ingeniero</td>
+            <td>0981111111</td>
+            <td>juan@email.com</td>
+        </tr>
+
+        <tr>
+            <td>Ing. Quiroz Palma Patricia Alexandra</td>
+            <td>Docente</td>
+            <td>0982222222</td>
+            <td>patricia@email.com</td>
+        </tr>
+
+        <tr>
+            <td>Derlis Dario Carranza</td>
+            <td>Desarrollador</td>
+            <td>0995940714</td>
+            <td>Dario@gmail.com</td>
+        </tr>
+
+        </table>
+    </div>
+
+    </div>
+
+</body>
+</html>
