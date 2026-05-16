@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Operaciones con Alerts</title>
+</head>
+<body>
+
+<script>
+
+    // Ingreso de datos
+    let num1 = parseFloat(prompt("Ingrese el primer valor:"));
+    let num2 = parseFloat(prompt("Ingrese el segundo valor:"));
+
+    // Bucle de 5 iteraciones
+    for(let i = 1; i <= 5; i++) {
+
+        switch(i) {
+
+            case 1:
+                alert(
+                    "1. SUMA\n\n" +
+                    num1 + " + " + num2 + " = " + (num1 + num2)
+                );
+                break;
+
+            case 2:
+                alert(
+                    "2. RESTA\n\n" +
+                    num1 + " - " + num2 + " = " + (num1 - num2)
+                );
+                break;
+
+            case 3:
+                alert(
+                    "3. MULTIPLICACIÓN\n\n" +
+                    num1 + " * " + num2 + " = " + (num1 * num2)
+                );
+                break;
+
+            case 4:
+
+                if(num2 != 0) {
+
+                    alert(
+                        "4. DIVISIÓN\n\n" +
+                        num1 + " / " + num2 + " = " + (num1 / num2)
+                    );
+
+                } else {
+
+                    alert("4. DIVISIÓN\n\nNo se puede dividir para 0");
+
+                }
+
+                break;
+
+            case 5:
+
+                if(num2 != 0) {
+
+                    alert(
+                        "5. MOD (%)\n\n" +
+                        num1 + " % " + num2 + " = " + (num1 % num2)
+                    );
+
+                } else {
+
+                    alert("5. MOD (%)\n\nNo se puede calcular con 0");
+
+                }
+
+                break;
+        }
+    }
+
+</script>
+
+</body>
+</html>
